@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties for You | Real Estate</title>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body>
+    <header>
+        <h1>Your Next Property for Sale or Rent</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="subnav">
+                <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
+                <ul class="subnav-content">
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </li>
+            <li><a href="contacts.html" class="nav-link">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="images/house1.jpg" alt="Ingatlan 1"></div>
+                <div class="slide"><img src="images/house2.jpg" alt="Ingatlan 2"></div>
+                <div class="slide"><img src="images/house3.jpg" alt="Ingatlan 3"></div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        </div> 
+    </main> 
+    <div id="propertyModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalLocation"></p>
+            <p id="modalPrice"></p>
+            <p id="modalDescription"></p>
+            <section id="modalGallery"></section>
+            
+            <div class="map-container">
+                <iframe id="gmap" class="map-frame" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+  </div>
+    <footer>
+        <p>&copy; 2025. All rights reserved.</p>
+    </footer>
+    <script src="./components/main.js"></script>
+</body>
+</html>

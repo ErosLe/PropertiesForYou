@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate | Contac Us</title>
+    <link rel="stylesheet" href="./scss/contacts.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="subnav">
+                <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
+                <ul class="subnav-content">
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="contact-container">
+        <section class="contact-info">
+            <h2>Properties for You</h2>
+            <p><strong>Address:</strong> Móra Ferenc Múzeum, Szeged, Hungary</p>
+            <p><strong>Phone:</strong> +36 62 123 456</p>
+            <p><strong>Email:</strong> info@propertiesforyou.com</p>
+            <p><strong>Opening Hours:</strong> Mon-Fri: 9 AM - 6 PM</p>
+        </section>
+        <section class="map-container">
+            <h2>Find Us Here</h2>
+            <iframe id="gmap" 
+                    src=""  
+                    width="16000" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+            </iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025. All rights reserved.</p>
+    </footer>
+      <script src="./components/contacts.js"></script>
+</body>
+</html>

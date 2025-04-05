@@ -1,0 +1,19 @@
+{
+  "name": "real-estate-website",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "compile": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://autocode.git.epam.com/eroslevente/capstone-project-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

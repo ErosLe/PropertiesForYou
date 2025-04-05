@@ -1,0 +1,234 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "header header" "nav main" "footer footer";
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  grid-area: header;
+  background-color: #08294d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #08294d;
+  padding-top: 110px;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+  align-items: center;
+}
+nav a, nav .subnavbtn {
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+nav a:hover, nav .subnavbtn:hover {
+  color: #6c757d;
+}
+nav .subnav {
+  position: relative;
+}
+nav .subnav .subnav-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  top: 0;
+  left: 100%;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+nav .subnav .subnav-content a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  background-color: #08294d;
+}
+nav .subnav .subnav-content a:hover {
+  color: #6c757d;
+}
+nav .subnav:hover .subnav-content {
+  display: block;
+}
+
+main {
+  border-right: #08294d solid 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.contact-container .contact-info {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact-container .contact-info h2 {
+  color: #0077cc;
+}
+.contact-container .contact-info p {
+  margin: 10px 0;
+}
+.contact-container .map-container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+.contact-container .map-container iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #08294d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 50px;
+  }
+  header {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 50;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 10px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    align-items: center;
+  }
+  nav a, nav .subnavbtn {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: white;
+  }
+  nav a:hover, nav .subnavbtn:hover {
+    color: #6c757d;
+  }
+  nav .subnav {
+    position: relative;
+  }
+  nav .subnav .subnav-content {
+    display: none;
+    position: absolute;
+    background-color: #08294d;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+  nav .subnav .subnav-content a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    color: white;
+  }
+  nav .subnav .subnav-content a:hover {
+    color: #6c757d;
+  }
+  nav .subnav:hover .subnav-content {
+    display: block;
+  }
+  main {
+    border-right: none;
+  }
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+}
+.contact-container .contact-info {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact-container .contact-info h2 {
+  color: #0077cc;
+}
+.contact-container .contact-info p {
+  margin: 10px 0;
+}
+.contact-container .map-container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+.contact-container .map-container iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=contacts.css.map */

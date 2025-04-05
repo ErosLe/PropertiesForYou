@@ -1,0 +1,78 @@
+@mixin modal-style {
+    display: none; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000; 
+
+    .modal-content {
+        background-color: white;
+        margin: 5px auto; 
+        padding: 20px;
+        width: 90%; 
+        max-width: 600px; 
+        max-height: 80vh; 
+        overflow-y: auto;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    .close {
+        position: absolute; 
+        top: 10px; 
+        right: 10px; 
+        font-size: 25px;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+            font-size: xx-large
+        }
+    }
+}
+
+.modal {
+    @include modal-style; 
+}
+
+// Gallery in modal
+#modalGallery {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+    img {
+        width: 100%;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.4);
+        //   position: absolute;
+        //   margin: 0 auto;
+        //   left: 120px;
+        //   height: 300px;
+        //   width: 300px;
+
+            
+        }
+    }
+}
+
+// Térkép iframe stílusai
+#propertyModal .map-container {
+    width: 100%;
+    height: 300px;  // Fix magasság
+    margin-top: 20px;
+}
+
+#propertyModal .map-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

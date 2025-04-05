@@ -1,93 +1,83 @@
-# Capstone project template
+# Real Estate Website
 
+## Project Overview
+This web application allows users to search for properties available for sale or rent. It provides detailed property information such as price, size, location, and amenities, along with images. Users can browse listings, view property images, and see locations on a map.
 
+## Features:
+- Property Search: Users can search for properties by title or location using the search bar.
 
-## Getting started
+- Filters: Properties can be filtered by status (for sale or for rent), and results can be sorted by price (low to high or high to low).
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- Property Listings: A list of available properties, displaying basic information such as the title, location, price, and description.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- Image Slider: Properties are displayed in an image slider for a quick preview of the property images.
 
-## Add your files
+P-roperty Details Modal: Clicking on a property or any image in the slider or gallery opens a modal with more detailed information about the property, including images, a description, and a Google Map showing the property location.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- Pagination: Users can browse through multiple pages of listings with the pagination controls.
 
-```
-cd existing_repo
-git remote add origin https://autocode.git.epam.com/campus_javascript/javascript/fundamentals/capstone-project-template.git
-git branch -M main
-git push -uf origin main
-```
+- Responsive Design: The website is designed to be responsive, ensuring it works well on different screen sizes, from mobile to desktop.
 
-## Integrate with your tools
+## Requirements
+- Install [Node.js](https://nodejs.org/) (includes npm)
+- Install Sass to compile SCSS into CSS
 
-- [ ] [Set up project integrations](https://autocode.git.epam.com/campus_javascript/javascript/fundamentals/capstone-project-template/-/settings/integrations)
+## Setup Guide
+1. Clone the project:
+   ```sh
+   git clone https://github.com/your-username/real-estate-website.git
+   cd real-estate-website
+   ```
+2. Install required packages:
+   ```sh
+   npm install
+   ```
+3. Compile SCSS to CSS:
+   ```sh
+   npm run sass
+   ```
+4. Start a local server:
+   ```sh
+   npm run start
+   ```
+5. Open `index.html` in a browser or go to `http://localhost:3000` if using a local server.
 
-## Collaborate with your team
+## Technologies Used:
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- **HTML5** To structure the content.
 
-## Test and Deploy
+- **CSS/SCSS** For styling the website, with SCSS used for easier maintenance and dynamic styling.
 
-Use the built-in continuous integration in GitLab.
+- **JavaScript(ES6)**  To add interactivity to the website, such as image sliders, modals, and dynamic property loading.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- **Latitude and Longitude** for displaying property locations on a map
 
-***
+## How It Works:
 
-# Editing this README
+- The property data (title, description, images, price, and location) is stored in a JSON file (real_estates.json), which is fetched and displayed dynamically.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+- The slider component allows users to see images of the properties in a carousel format.
 
-## Suggestions for a good README
+- Property Details Modal: When a user clicks on a property listing, an image in the slider, or any gallery image, a modal opens with detailed information about the property, including images, a description, and a Google Map showing the exact location.
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- Filters and search: Users can filter properties based on whether they are for sale or for rent and can sort properties by price. There’s also a search bar for location or title-based searches.
 
-## Name
-Choose a self-explaining name for your project.
+## Pages:
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+- Home (index.html): The main page displaying the property slider and a list of properties for sale or rent.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- Gallery (gallery.html): A dedicated gallery page where users can view more images and details of properties.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+- Company (company.html): Information about the company behind the real estate website.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+- Team (team.html): A page showcasing the team behind the platform.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+- Contacts (contacts.html): Contact information and a contact form for users to get in touch with the real estate agency.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## Additional Features:
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+- Property Pagination: Pagination allows users to navigate through multiple pages of properties.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- Property Modal: When a user clicks on a property listing, an image in the slider, or any image in the gallery, a modal opens with detailed information about the property, including images and a Google Map embedded with the location of the property.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- Google Map Integration: The modal includes a map that displays the exact location of the property based on the provided latitude and longitude coordinates.
