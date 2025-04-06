@@ -2,6 +2,7 @@
 @import 'slider';
 @import 'modal';
 
+
 @mixin flex-center {
     display: flex;
     justify-content: center;
@@ -16,7 +17,6 @@ body {
     "header header"
     "nav main"
     "footer footer";
-    
     font-family: $font-stack;
     background-color: $background-color;
     color: $text-color;
@@ -105,10 +105,57 @@ main {
     grid-area: main;
     padding: 20px;
     border-right: $primary-color solid 20px;
-
- 
 }
 
+#filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  select,
+  input[type="text"] {
+    padding: 8px 12px;
+    font-size: 14px;
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%; 
+  }
+
+  #propertieType {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-start;
+    height: 50px;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      user-select: none;
+
+      input[type="checkbox"] {
+        accent-color: $primary-color;
+      }
+
+
+      input[type="checkbox"]:checked + span {
+        font-weight: bold;
+        color: $primary-color;
+      }
+    }
+  }
+}
 #property-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -287,6 +334,21 @@ footer {
         display: block;
       }
     }
+  }
+  #filters {
+    grid-template-columns: 1fr; 
+  }
+
+  select,
+  input[type="text"] {
+    padding: 8px 12px;
+    font-size: 14px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+
+  #propertieType {
+    grid-template-columns: 1fr 1fr; 
   }
 main {
   margin-top: 80px;

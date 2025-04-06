@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           <img src="${property.image}" alt="${property.title}">
           <h2>${property.title}</h2>
           <p>${property.location}</p>
-          <p>Ár: $${property.price.toLocaleString()}</p>
+          <p>Price: ${property.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</p>
           <p>${property.description}</p>
         `;
         propertyCard.addEventListener("click", () => openModal(property));
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       const modal = document.getElementById("propertyModal");
       document.getElementById("modalTitle").textContent = property.title;
       document.getElementById("modalLocation").textContent = property.location;
-      document.getElementById("modalPrice").textContent = `$${property.price}`;
+      document.getElementById("modalPrice").textContent = `${property.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}`;
       document.getElementById("modalDescription").textContent = property.description;
       const gallery = document.getElementById("modalGallery");
       gallery.innerHTML = "";

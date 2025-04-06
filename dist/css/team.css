@@ -181,7 +181,7 @@ footer {
   }
 }
 .bg-image {
-  background-image: url("/public/images/skyscrapers.png");
+  background-image: url("/public/images/team.png");
   filter: blur(3px);
   -webkit-filter: blur(3px);
   height: 100%;
@@ -196,7 +196,7 @@ footer {
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -205,4 +205,4 @@ footer {
   text-align: center;
 }
 
-/*# sourceMappingURL=company.css.map */
+/*# sourceMappingURL=team.css.map */
