@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   
     async function fetchProperties() {
       try {
-        const response = await fetch("../public/real_estates.json");
+        const response = await fetch("real_estates.json");
         allProperties = await response.json();
         renderProperties();
         renderPagination();
