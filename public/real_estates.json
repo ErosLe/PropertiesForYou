@@ -6,11 +6,11 @@
           "location": "Los Angeles, CA",
           "price": 1500000,
           "description": "A beautiful villa in the heart of LA.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for sale",
-          "gallery": ["/public/images/raw_interior_1.png","/public/images/raw_interior_2.png","/public/images/raw_interior_3.png", "https://picsum.photos/id/176/300/300"] 
+          "gallery": ["images/raw_interior_1.png","images/raw_interior_2.png","images/raw_interior_3.png", "https://picsum.photos/id/176/300/300"] 
         },
         {
           "id": 2,
@@ -18,11 +18,11 @@
           "location": "New York, NY",
           "price": 850000,
           "description": "A small but cozy apartment in NYC.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 40.7128,
           "lng": -74.0060,
           "status": "for rent",
-          "gallery": ["/public/images/raw1_interior_1.png", "/public/images/raw_interior_2.png", "/public/images/raw_interior_3.png"," https://picsum.photos/id/178/300/300"]   
+          "gallery": ["images/raw1_interior_1.png", "images/raw_interior_2.png", "images/raw_interior_3.png"," https://picsum.photos/id/178/300/300"]   
         }
       ,
       {
@@ -31,7 +31,7 @@
         "location": "Los Angeles, CA",
         "price": 1500000,
         "description": "A beautiful villa in the heart of LA.",
-        "image": "/public/images/raw_2.png",
+        "image": "images/raw_2.png",
         "lat": 34.0522,
         "lng": -118.2437,
         "status": "for sale" 
@@ -43,11 +43,11 @@
           "location": "Los Angeles, CA",
           "price": 850000,
           "description": "A spacious and luxurious apartment located in the heart of Los Angeles with a city view.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_1.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_1.png"]
         },
         {
           "id": 5,
@@ -55,11 +55,11 @@
           "location": "Los Angeles, CA",
           "price": 650000,
           "description": "Cozy and charming cottage located by the beach with stunning ocean views.",
-          "image": "/public/images/raw_2.png",
+          "image": "images/raw_2.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 6,
@@ -67,11 +67,11 @@
           "location": "New York, NY",
           "price": 2500000,
           "description": "Stunning luxury villa with a private pool and expansive outdoor space located in New York.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 40.7128,
           "lng": -74.0060,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 7,
@@ -79,11 +79,11 @@
           "location": "Los Angeles, CA",
           "price": 950000,
           "description": "Stylish and modern downtown loft with a panoramic city view, perfect for urban living.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 8,
@@ -91,11 +91,11 @@
           "location": "Chicago, IL",
           "price": 1150000,
           "description": "Large family home with a beautiful garden and open concept living in Chicago's quiet suburban area.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 9,
@@ -103,11 +103,11 @@
           "location": "Chicago, IL",
           "price": 1200000,
           "description": "Luxury high-rise apartment offering breathtaking skyline views and premium amenities.",
-          "image": "/public/images/raw_2.png",
+          "image": "images/raw_2.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 10,
@@ -115,11 +115,11 @@
           "location": "Miami, FL",
           "price": 1600000,
           "description": "Modern townhouse with luxurious amenities located in the vibrant area of Miami, close to the beach.",
-          "image": "/public/images/raw_3.png",
+          "image": "images/raw_3.png",
           "lat": 25.7617,
           "lng": -80.1918,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 11,
@@ -127,11 +127,11 @@
           "location": "Miami, FL",
           "price": 3200000,
           "description": "Exclusive beachfront property with panoramic ocean views, offering privacy and luxury in Miami.",
-          "image": "/public/images/raw_2.png",
+          "image": "images/raw_2.png",
           "lat": 25.7617,
           "lng": -80.1918,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 12,
@@ -139,11 +139,11 @@
           "location": "Denver, CO",
           "price": 950000,
           "description": "A secluded mountain cabin offering breathtaking views of the surrounding nature, perfect for a getaway.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 39.7392,
           "lng": -104.9903,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 13,
@@ -151,11 +151,11 @@
           "location": "Los Angeles, CA",
           "price": 1450000,
           "description": "A bright and airy apartment in a prime downtown location with easy access to shops and restaurants.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 14,
@@ -163,11 +163,11 @@
           "location": "Chicago, IL",
           "price": 950000,
           "description": "A charming home in a family-friendly suburban neighborhood with a spacious backyard.",
-          "image": "/public/images/raw_2.png",
+          "image": "images/raw_2.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 15,
@@ -175,11 +175,11 @@
           "location": "New York, NY",
           "price": 2000000,
           "description": "An industrial chic loft with high ceilings, exposed brick, and large windows, located in the heart of the city.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 40.7128,
           "lng": -74.0060,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_1.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_1.png"]
         },
         {
           "id": 16,
@@ -187,11 +187,11 @@
           "location": "Miami, FL",
           "price": 2100000,
           "description": "Bright and airy villa located right on the beach, perfect for those who love ocean views.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 25.7617,
           "lng": -80.1918,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 17,
@@ -199,11 +199,11 @@
           "location": "Chicago, IL",
           "price": 2500000,
           "description": "A luxurious penthouse offering incredible views of Chicago’s skyline and modern amenities.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for sale",
-          "gallery": ["/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_2.png"]
+          "gallery": ["images/raw_interior_1.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_2.png"]
         },
         {
           "id": 18,
@@ -211,11 +211,11 @@
           "location": "Denver, CO",
           "price": 2200000,
           "description": "Stunning home with panoramic views of the mountains and a large outdoor space for entertaining.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 39.7392,
           "lng": -104.9903,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 19,
@@ -223,11 +223,11 @@
           "location": "Chicago, IL",
           "price": 1200000,
           "description": "Luxury high-rise apartment offering breathtaking skyline views and premium amenities.",
-          "image": "/public/images/raw_2.png",
+          "image": "images/raw_2.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_1.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_1.png"]
         },
         {
           "id": 20,
@@ -235,11 +235,11 @@
           "location": "Miami, FL",
           "price": 1600000,
           "description": "Modern townhouse with luxurious amenities located in the vibrant area of Miami, close to the beach.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 25.7617,
           "lng": -80.1918,
           "status": "for rent",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 21,
@@ -247,11 +247,11 @@
           "location": "Miami, FL",
           "price": 3200000,
           "description": "Exclusive beachfront property with panoramic ocean views, offering privacy and luxury in Miami.",
-          "image": "/public/images/raw_2.png",
+          "image": "images/raw_2.png",
           "lat": 25.7617,
           "lng": -80.1918,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_1.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_1.png"]
         },
         {
           "id": 22,
@@ -259,11 +259,11 @@
           "location": "Denver, CO",
           "price": 950000,
           "description": "A secluded mountain cabin offering breathtaking views of the surrounding nature, perfect for a getaway.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 39.7392,
           "lng": -104.9903,
           "status": "for rent",
-          "gallery": ["/public/images/raw_interior_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_interior_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 23,
@@ -271,11 +271,11 @@
           "location": "Los Angeles, CA",
           "price": 1450000,
           "description": "A bright and airy apartment in a prime downtown location with easy access to shops and restaurants.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 24,
@@ -283,11 +283,11 @@
           "location": "Chicago, IL",
           "price": 950000,
           "description": "A charming home in a family-friendly suburban neighborhood with a spacious backyard.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_1.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_1.png"]
         },
         {
           "id": 25,
@@ -295,11 +295,11 @@
           "location": "New York, NY",
           "price": 2000000,
           "description": "An industrial chic loft with high ceilings, exposed brick, and large windows, located in the heart of the city.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 40.7128,
           "lng": -74.0060,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 26,
@@ -307,11 +307,11 @@
           "location": "Miami, FL",
           "price": 2100000,
           "description": "Bright and airy villa located right on the beach, perfect for those who love ocean views.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 25.7617,
           "lng": -80.1918,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "https://picsum.photos/id/164/300/300", "/public/images/raw_interior_1.png"]
+          "gallery": ["images/raw_2.png", "https://picsum.photos/id/164/300/300", "images/raw_interior_1.png"]
         },
         {
           "id": 27,
@@ -319,11 +319,11 @@
           "location": "Chicago, IL",
           "price": 2500000,
           "description": "A luxurious penthouse offering incredible views of Chicago’s skyline and modern amenities.",
-          "image": "/public/images/raw_1.png",
+          "image": "images/raw_1.png",
           "lat": 41.8781,
           "lng": -87.6298,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_2.png", "https://picsum.photos/id/164/300/300"]
         },
         {
           "id": 28,
@@ -331,11 +331,11 @@
           "location": "Denver, CO",
           "price": 2200000,
           "description": "Stunning home with panoramic views of the mountains and a large outdoor space for entertaining.",
-          "image": "/public/images/raw.png",
+          "image": "images/raw.png",
           "lat": 39.7392,
           "lng": -104.9903,
           "status": "for sale",
-          "gallery": ["/public/images/raw_2.png", "/public/images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
+          "gallery": ["images/raw_2.png", "images/raw_interior_1.png", "https://picsum.photos/id/164/300/300"]
         }
 
         ]
