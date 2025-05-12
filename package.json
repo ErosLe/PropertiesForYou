@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "sass src/scss:dist/css",
     "clean": "rimraf dist/images/* dist/js/*",
-    "build": "npm run clean && npm run compile && copyfiles -u 1 src/**/*.html src/**/*.js public/images/**/* dist/",  
+    "build": "npm run clean && npm run compile && copyfiles -u 1 src/**/*.html src/**/*.js public/img/**/* dist/"
+,
   "deploy": "vercel deploy --prod" 
 
   },
