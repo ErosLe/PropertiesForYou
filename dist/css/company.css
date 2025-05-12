@@ -181,7 +181,7 @@ footer {
   }
 }
 .bg-image {
-  background-image: url("/images/skyscrapers.png");
+  background-image: url("images/skyscrapers.png");
   filter: blur(3px);
   -webkit-filter: blur(3px);
   height: 100%;
