@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   function renderSlider() {
     slidesContainer.innerHTML = allProperties.map((property, index) => `
       <div class="slide" data-index="${index}">
-        <img src="${property.image}" alt="${property.title}">
+        <img src="/${property.image}" alt="${property.title}">
       </div>
     `).join("");
     totalSlides = allProperties.length;
