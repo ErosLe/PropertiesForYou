@@ -6,11 +6,11 @@
           "location": "Los Angeles, CA",
           "price": 1500000,
           "description": "A beautiful villa in the heart of LA.",
-          "image": "images/raw_1.png",
+          "image": "/images/raw_1.png",
           "lat": 34.0522,
           "lng": -118.2437,
           "status": "for sale",
-          "gallery": ["images/raw_interior_1.png","images/raw_interior_2.png","images/raw_interior_3.png", "https://picsum.photos/id/176/300/300"] 
+          "gallery": ["/images/raw_interior_1.png","images/raw_interior_2.png","images/raw_interior_3.png", "https://picsum.photos/id/176/300/300"] 
         },
         {
           "id": 2,
