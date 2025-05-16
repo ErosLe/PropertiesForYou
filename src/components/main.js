@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   async function fetchProperties() {
     try {
-      const response = await fetch("../public/real_estates.json");
+      const response = await fetch("/real_estates.json");
       allProperties = await response.json();
       renderSlider();
     } catch (error) {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   function renderSlider() {
     slidesContainer.innerHTML = allProperties.map((property, index) => `
       <div class="slide" data-index="${index}">
-        <img src="/${property.image}" alt="${property.title}">
+        <img src="${property.image}" alt="${property.title}">
       </div>
     `).join("");
     totalSlides = allProperties.length;
